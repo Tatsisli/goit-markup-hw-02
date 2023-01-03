@@ -1,6 +1,12 @@
+:root {
+    --active-color:#2E2F42;
+    --body-text-color:#434455;
+    --accent-color: #4D5AE5;  
+}
+
 body {
     font-family: "Roboto", sans-serif;
-    /* color: #2E2F42; Ще не розумію потрібно чи ні */
+    color:var(--body-text-color)
 }
 .link {
     text-decoration: none;
@@ -8,11 +14,6 @@ body {
 
 .list {
     list-style: none;
-}
-:root {
-    --main-title-color:#2E2F42;
-    --second-title-color:#434455;
-    --accent-color: #4D5AE5;  
 }
 
 .title {
