@@ -1,54 +1,56 @@
 :root {
-    --primary-brand: #4D5AE5;
-    --dark: #2E2F42;
-    --success: #31D0AA;
-    --text: #434455;
-    --subtle-text: #8E8F99;
-    --accent: #E7E9FC;
-    --light: #F4F4FD;
-    --white-color: #FFFFFF;
-    --focus-color:#404BBF;
+  --primary-brand: #4d5ae5;
+  --dark: #2e2f42;
+  --success: #31d0aa;
+  --text: #434455;
+  --subtle-text: #8e8f99;
+  --accent: #e7e9fc;
+  --light: #f4f4fd;
+  --white-color: #ffffff;
+  --focus-color: #404bbf;
 }
 
 body {
-    font-family: "Roboto", sans-serif;
-    color:var(--text);
+  font-family: "Roboto", sans-serif;
+  color: var(--text);
 }
 .link {
-    text-decoration: none;
-    color: inherit;
+  font-style: normal;
+  text-decoration: none;
+  color: inherit;
 }
 .link:hover,
 .link:focus {
-    color: var(--focus-color);
+  color: var(--focus-color);
 }
 
 .list {
-    list-style: none;
+  list-style: none;
 }
 
 .title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    color:var(--dark);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  color: var(--dark);
 }
+.hidden-title {
 
-.suptitle {
-    
 }
 
 .btn {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 .btn:hover,
 .btn:focus {
-    background-color: var(--focus-color);
-    color: var(--white-color);
+  background-color: var(--focus-color);
+  color: var(--white-color);
 }
 
 /*---------------------HEADER-------------------------*/
@@ -58,61 +60,59 @@ body {
 }
 
 .header-logo {
-    font-family: 'Raleway';
-    font-weight: 800;
-    font-size: 18px;
-    color: var(--dark);
-    line-height: 1.33;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  color: var(--dark);
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .focus-logo {
-    color: var(--primary-brand);
+  color: var(--primary-brand);
 }
 
 .header-list {
-
 }
 
 .header-item {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--dark);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--dark);
 }
 .header-link {
 }
 .contacts {
 }
 .contacts-list {
-    
 }
 .contacts-item {
-    list-style: 1.5;
-    letter-spacing: 0.02em;
-    color:var(--text);
+  list-style: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text);
 }
 
 /*---------------------HERO---------------------------*/
 .hero {
-    background:var(--dark);
-    color: var(--white-color);
+  background: var(--dark);
+  color: var(--white-color);
 }
 .hero-title {
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    color:var(--white-color);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: var(--white-color);
 }
-.mdl-btn {
-    background:var(--primary-brand);
-    font-weight: 500;
-    font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-color:inherit;
+.modal-btn {
+  background: var(--primary-brand);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: inherit;
 }
 
 /*---------------------MiSSION---------------------------*/
@@ -122,24 +122,24 @@ color:inherit;
 .mission-item {
 }
 .mission-item-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color:var(--dark);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark);
 }
 .mission-item-suptitle {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color:var(--text);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text);
 }
 /*---------------------PRACTICE---------------------------*/
 .practice {
 }
 .practice-title {
-    letter-spacing: 0.02em;
+  letter-spacing: 0.02em;
 }
 .practice-list {
 }
@@ -148,29 +148,93 @@ color:inherit;
 }
 /*---------------------TEAM---------------------------*/
 .team {
-    background:var(--light);
+  background: var(--light);
 }
 .team-title {
 }
 .team-list {
 }
 .team-empl {
-    width: 264px;
-    height: 380px;
-    background:var(--white-color); 
+  width: 264px;
+  height: 380px;
+  background: var(--white-color);
 }
 .team-empl-name {
-    font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color:var(--dark)
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark);
 }
 .team-empl-fncn {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text);
+}
+
+/*---------------------PROJECTS-------------------------*/
+.projects {
+}
+.select-projects-list {
+}
+.select-item {
+}
+.select-btn {
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color:var(--primary-brand);
+background-color: var(--light);
+}
+.projects-list {
+}
+.projects-item {
+    background: var(--white-color);
+    width: 360px;
+    height: 420;
+}
+.projects-name {
+}
+.project-item-select {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:var(--dark);
+}
+.project-item-sselect {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:var(--text)
+    color:var(--text);
 }
+
 /*---------------------FOOTER---------------------------*/
+.footer {
+  background: var(--dark);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--accent);
+}
+.footer-logo {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--light);
+}
+.footer-slogan {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--accent);
+}
