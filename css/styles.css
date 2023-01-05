@@ -9,7 +9,6 @@
   --white-color: #ffffff;
   --focus-color: #404bbf;
 }
-
 body {
   font-family: "Roboto", sans-serif;
   color: var(--text);
@@ -23,11 +22,9 @@ body {
 .link:focus {
   color: var(--focus-color);
 }
-
 .list {
   list-style: none;
 }
-
 .title {
   font-weight: 700;
   font-size: 36px;
@@ -35,9 +32,17 @@ body {
   color: var(--dark);
 }
 .hidden-title {
-
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
-
 .btn {
   font-weight: 500;
   font-size: 16px;
@@ -52,29 +57,27 @@ body {
   background-color: var(--focus-color);
   color: var(--white-color);
 }
-
+.logo {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
 /*---------------------HEADER-------------------------*/
 .header {
 }
 .header-navigation {
 }
-
 .header-logo {
-  font-family: "Raleway";
-  font-weight: 800;
-  font-size: 18px;
   color: var(--dark);
   line-height: 1.33;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 .focus-logo {
   color: var(--primary-brand);
 }
-
 .header-list {
 }
-
 .header-item {
   font-weight: 500;
   font-size: 16px;
@@ -93,14 +96,12 @@ body {
   letter-spacing: 0.02em;
   color: var(--text);
 }
-
 /*---------------------HERO---------------------------*/
 .hero {
   background: var(--dark);
   color: var(--white-color);
 }
 .hero-title {
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -108,15 +109,13 @@ body {
 }
 .modal-btn {
   background: var(--primary-brand);
-  font-weight: 500;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: inherit;
 }
-
 /*---------------------MiSSION---------------------------*/
-
+.mission {
+}
 .mission-list {
 }
 .mission-item {
@@ -129,8 +128,6 @@ body {
   color: var(--dark);
 }
 .mission-item-suptitle {
-  font-weight: 400;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text);
@@ -139,12 +136,15 @@ body {
 .practice {
 }
 .practice-title {
+  font-size: 36px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
 }
 .practice-list {
 }
-
 .practice-item {
+  width: 360px;
+  height: 300px;
 }
 /*---------------------TEAM---------------------------*/
 .team {
@@ -167,13 +167,10 @@ body {
   color: var(--dark);
 }
 .team-empl-fncn {
-  font-weight: 400;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text);
 }
-
 /*---------------------PROJECTS-------------------------*/
 .projects {
 }
@@ -182,58 +179,43 @@ body {
 .select-item {
 }
 .select-btn {
-    font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-color:var(--primary-brand);
-background-color: var(--light);
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--primary-brand);
+  background-color: var(--light);
 }
 .projects-list {
 }
 .projects-item {
-    background: var(--white-color);
-    width: 360px;
-    height: 420;
+  background: var(--white-color);
+  width: 360px;
+  height: 420;
 }
 .projects-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark);
 }
 .project-item-select {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color:var(--dark);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text);
 }
-.project-item-sselect {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color:var(--text);
-}
-
 /*---------------------FOOTER---------------------------*/
 .footer {
   background: var(--dark);
-  font-weight: 400;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--accent);
 }
 .footer-logo {
-  font-family: "Raleway";
-  font-weight: 800;
-  font-size: 18px;
   line-height: 1.17;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--light);
 }
 .footer-slogan {
-  font-weight: 400;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--accent);
