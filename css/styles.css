@@ -12,6 +12,10 @@
 body {
   font-family: "Roboto", sans-serif;
   color: var(--text);
+  background-color: var(--white-color);
+  font-weight: 400;
+  font-size: 16;
+  letter-spacing: 0.02em;
 }
 .link {
   font-style: normal;
@@ -82,7 +86,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
   color: var(--dark);
 }
 .header-link {
@@ -93,7 +96,6 @@ body {
 }
 .contacts-item {
   list-style: 1.5;
-  letter-spacing: 0.02em;
   color: var(--text);
 }
 /*---------------------HERO---------------------------*/
@@ -104,12 +106,10 @@ body {
 .hero-title {
   font-size: 56px;
   line-height: 1.07;
-  letter-spacing: 0.02em;
   color: var(--white-color);
 }
 .modal-btn {
   background: var(--primary-brand);
-  line-height: 1.5;
   letter-spacing: 0.04em;
   color: inherit;
 }
@@ -124,21 +124,16 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
   color: var(--dark);
 }
 .mission-item-suptitle {
   line-height: 1.5;
-  letter-spacing: 0.02em;
   color: var(--text);
 }
 /*---------------------PRACTICE---------------------------*/
 .practice {
 }
 .practice-title {
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
 }
 .practice-list {
 }
@@ -163,12 +158,10 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
   color: var(--dark);
 }
 .team-empl-fncn {
   line-height: 1.5;
-  letter-spacing: 0.02em;
   color: var(--text);
 }
 /*---------------------PROJECTS-------------------------*/
@@ -179,7 +172,6 @@ body {
 .select-item {
 }
 .select-btn {
-  line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--primary-brand);
   background-color: var(--light);
@@ -195,19 +187,16 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
   color: var(--dark);
 }
 .project-item-select {
   line-height: 1.5;
-  letter-spacing: 0.02em;
   color: var(--text);
 }
 /*---------------------FOOTER---------------------------*/
 .footer {
   background: var(--dark);
   line-height: 1.5;
-  letter-spacing: 0.02em;
   color: var(--accent);
 }
 .footer-logo {
@@ -217,6 +206,5 @@ body {
 }
 .footer-slogan {
   line-height: 1.5;
-  letter-spacing: 0.02em;
   color: var(--accent);
 }
