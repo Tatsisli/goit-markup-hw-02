@@ -14,7 +14,7 @@ body {
   color: var(--text);
   background-color: var(--white-color);
   font-weight: 400;
-  font-size: 16;
+  font-size: 16px;
   letter-spacing: 0.02em;
 }
 .link {
@@ -95,7 +95,7 @@ body {
 .contacts-list {
 }
 .contacts-item {
-  list-style: 1.5;
+  line-height: 1.5;
   color: var(--text);
 }
 /*---------------------HERO---------------------------*/
@@ -162,7 +162,6 @@ body {
 }
 .team-empl-fncn {
   line-height: 1.5;
-  color: var(--text);
 }
 /*---------------------PROJECTS-------------------------*/
 .projects {
@@ -196,8 +195,7 @@ body {
 /*---------------------FOOTER---------------------------*/
 .footer {
   background: var(--dark);
-  line-height: 1.5;
-  color: var(--accent);
+  
 }
 .footer-logo {
   line-height: 1.17;
